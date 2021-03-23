@@ -4,3 +4,6 @@
 [submodule "projects/gdev-alert"]
 	path = projects/gdev-alert
 	url = https://github.com/jgu7man/gdev-alert
+[submodule "projects/gdev-tools"]
+	path = projects/gdev-tools
+	url = https://github.com/jgu7man/gdev-tools-lib
