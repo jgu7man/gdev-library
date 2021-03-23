@@ -125,7 +125,51 @@
           }
         }
       }
+    },
+    "gdev-auth": {
+      "projectType": "library",
+      "root": "projects/gdev-auth",
+      "sourceRoot": "projects/gdev-auth/src",
+      "prefix": "gdev",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/gdev-auth/tsconfig.lib.json",
+            "project": "projects/gdev-auth/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/gdev-auth/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/gdev-auth/src/test.ts",
+            "tsConfig": "projects/gdev-auth/tsconfig.spec.json",
+            "karmaConfig": "projects/gdev-auth/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/gdev-auth/tsconfig.lib.json",
+              "projects/gdev-auth/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
+
   },
-  "defaultProject": "gdev-library"
+  "defaultProject": "gdev-library",
+  "cli": {
+    "analytics": "f231dd12-d59d-465c-87bf-520778653ba8"
+  }
 }
