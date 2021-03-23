@@ -1,0 +1,22 @@
+{
+  "name": "@jgu7man/gdev-tools",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.0.9",
+    "@angular/core": "^11.0.9",
+    "@angular/fire": "^6.1.4",
+    "@angular/forms": "~11.0.5",
+    "@angular/material": "^11.2.2",
+    "@angular/animations": "^11.0.9",
+    "firebase": "^7.0 || ^8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "license" : "MIT",
+  "author": "Jorge Gu7man <jguzman@marxadigital.com> (https://marxadigital.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgu7man/gdev-tools-lib"
+  }
+}

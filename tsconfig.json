@@ -23,6 +23,10 @@
       "gdev-auth": [
         "dist/gdev-auth/gdev-auth",
         "dist/gdev-auth"
+      ],
+      "gdev-tools": [
+        "dist/gdev-tools/gdev-tools",
+        "dist/gdev-tools"
       ]
     }
   },
