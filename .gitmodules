@@ -1,3 +1,6 @@
 [submodule "projects/gdev-auth"]
 	path = projects/gdev-auth
 	url = https://github.com/jgu7man/gdev-auth
+[submodule "projects/gdev-alert"]
+	path = projects/gdev-alert
+	url = https://github.com/jgu7man/gdev-alert
