@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+
     "build:lib": "ng build gdev-tools --prod",
     "link": "cd \"dist/gdev-tools\" && npm link",
     "link:lib": "npm link dist/gdev-tools",
