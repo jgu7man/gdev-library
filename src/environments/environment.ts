@@ -12,7 +12,8 @@ export const environment = {
     messagingSenderId: "344890181154",
     appId: "1:344890181154:web:36b36c51c45e09f1e3ac7b",
     measurementId: "G-BR414Z6NT9"
-  }
+  },
+  gmaps:''
 };
 
 /*
